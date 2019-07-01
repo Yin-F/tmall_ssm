@@ -94,9 +94,6 @@ public class OrderItemServiceImpl implements OrderItemService {
         }
     }
 
-    //测试远程回滚1
-    //测试远程回滚2
-
     private void setProduct(OrderItem oi) {
         Product p = productService.get(oi.getPid());
         oi.setProduct(p);
