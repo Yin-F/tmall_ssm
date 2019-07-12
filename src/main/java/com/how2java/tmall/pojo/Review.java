@@ -52,4 +52,16 @@ public class Review {
     public void setCreateDate(Date createDate) {
         this.createDate = createDate;
     }
+
+
+    //修改自动生成的评价类Review, 增加User属性
+    private User user;
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 }

@@ -18,4 +18,10 @@ public interface ProductService {
     void fill(List<Category> cs);
     void fill(Category c);
     void fillByRow(List<Category> cs);
+
+    //为产品设置销量和评价数量的方法
+    void setSaleAndReviewNumber(Product p);
+    void setSaleAndReviewNumber(List<Product> ps);
+
+    List<Product> search(String keyword);
 }
